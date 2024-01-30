@@ -1,0 +1,8 @@
+@import "home.css";
+@import "navbar.css";
+@import "footer.css";
+@import "post.css";
+
+* {
+    margin: 0;
+}
