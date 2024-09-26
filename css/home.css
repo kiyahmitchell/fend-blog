@@ -1,73 +1,77 @@
 /* HEADER */
-.home-header img{
-    width: 100%;
-    height: 500px;
-    opacity: 0.8;
-    display: flex;
-    padding-bottom: 15px;
+.home-header img {
+  width: 100%;
+  height: 500px;
+  opacity: 0.8;
+  display: flex;
+  padding-bottom: 15px;
 }
 
 /* CARD HEADER */
 .card-header {
-    text-align: center;
-    height: 125px;
-    padding-top: 25px;
+  text-align: center;
+  height: 125px;
+  padding-top: 25px;
 }
 .header-quote {
-    font-style: italic;
-    font-size: 25px;
+  font-style: italic;
+  font-size: 25px;
 }
 .header-title {
-    font-weight: bold;
-    font-size: 40px;
+  font-weight: bold;
+  font-size: 40px;
 }
 
 /* CARD CONTAINER */
 .card-container {
-    display: grid;
-    margin: 0 auto;
-    gap: 20px;
-    max-width: 1200px;
-    padding-bottom: 40px;
+  display: grid;
+  margin: 0 auto;
+  gap: 20px;
+  max-width: 1200px;
+  padding-bottom: 40px;
 }
 /* RESPONSIVE MEDIA FOR CARDS */
 @media (min-width: 600px) {
-    .card-container { grid-template-columns: repeat(2, 1fr); }
+  .card-container {
+    grid-template-columns: repeat(2, 1fr);
   }
+}
 @media (min-width: 900px) {
-  .card-container { grid-template-columns: repeat(4, 1fr); }
+  .card-container {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 /* CARDS */
 .card {
-    border: 1px solid lightgray;
-    width: 250px;
-    text-align: center;
+  border: 1px solid lightgray;
+  width: 250px;
+  text-align: center;
 }
 .card-img {
-    height: 250px;
-    width: 250px;
+  height: 250px;
+  width: 250px;
 }
 .card-body {
-    padding: 5px;
+  padding: 5px;
 }
 .card-title {
-    margin-top: 5px;
-    margin-bottom: 5px;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 .card-text {
-    margin-top: 10px;
-    margin-bottom: 8px;
+  margin-top: 10px;
+  margin-bottom: 8px;
 }
 .btn {
-    width: 50%;
-    background-color: black;
-    border-radius: 10px;
-    border: none;
-    padding: 8px;
+  width: 50%;
+  background-color: black;
+  border-radius: 10px;
+  border: none;
+  padding: 8px;
 }
 .post-link {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }

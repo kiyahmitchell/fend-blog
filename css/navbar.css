@@ -1,27 +1,27 @@
 /* NAVBAR */
 .navbar {
-    background-color: white;
-    overflow: hidden;
-    border-bottom: 1px solid lightgray;
+  background-color: white;
+  overflow: hidden;
+  border-bottom: 1px solid lightgray;
 }
 
 /*Image in navbar*/
 .logo {
-    display: block;
-    width: 150px;
-    height: auto;
-    float: left;
-    padding-left: 10px;
+  display: block;
+  width: 150px;
+  height: auto;
+  float: left;
+  padding-left: 10px;
 }
 
 /* Style the links inside the navigation bar */
 .navbar a {
-    float: left;
-    display: block;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-    color: black;
-    border-right: 1px solid lightgray;
+  float: left;
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  color: black;
+  border-right: 1px solid lightgray;
 }
